@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+    <title>M.Kumail Khan</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <div class="navbar-parent bg-black items-center flex justify-center">
+            <div class="navbar flex justify-between items-center  max-w-screen-2xl h-14">
+                <div class="navbar-left">
+                    <h1 class="font-black text-white cursor-pointer text-3xl">M.KK</h1>
+                </div>
+                <!-- navbar-left end -->
+                <div class="navbar-right text-white flex justify-between w-1/2 text-xl">
+                    <p class="cursor-pointer hover:text-gray-200">Home</p>
+                    <p class="cursor-pointer hover:text-gray-200">About</p>
+                    <p class="cursor-pointer hover:text-gray-200">Projects</p>
+                    <p class="cursor-pointer hover:text-gray-200">Skills</p>
+                    <p class="cursor-pointer hover:text-gray-200">Contact</p>
+                </div>
+                <!-- navbar-right end -->
+            </div>
+            <!--  navbar end -->
+        </div>
+        <!--  navbar parent end -->
+
+        <div class="hero-section justify-center flex h-screen items-center">
+            <div class="hero-intro w-9/12 flex justify-between items-center">
+                <div class="intro-left flex flex-col items-center w-2/4">
+                    <img src="images/profile-image.jpg" class="w-96  rounded-full border-2 border-black">
+                </div>
+                <!-- intro-left end -->
+                <div class="intro-right flex flex-col items-center w-2/4">
+                    <p class="text-2xl"> Hello i'm</p>
+                    <h1 class="mt-8 text-6xl font-semibold">M.Kumail Khan</h1>
+                    <p class="mt-8 text-2xl">Frontend Web Developer</p>
+                    <div class="buttons mt-8">
+                        <button
+                            class="border-2 rounded-3xl border-black pl-7 pr-7 pt-2 pb-2 hover:bg-black hover:text-white ease-in-out duration-300">Download
+                            CV</button>
+                        <button
+                            class="border-2 border-black bg-black text-white rounded-3xl pl-7 pr-7 pt-2 pb-2 ">Contact
+                            Info</button>
+                    </div>
+                    <div class="links mt-8 flex gap-4">
+                        <a href=" https://github.com/Kumail-Khan"><i
+                                class="fa-brands fa-github text-2xl cursor-pointer"></i></a>
+                        <a href="https://www.linkedin.com/in/kumail-khan-806b59242/"><i
+                                class="fa-brands fa-linkedin text-2xl cursor-pointer"></i></a>
+                        <a href="https://www.instagram.com/kumail_khan_01/"><i
+                                class="fa-brands fa-instagram text-2xl cursor-pointer"></i></a>
+                        <a href=" https://web.facebook.com/profile.php?id=100013381187178"><i
+                                class="fa-brands fa-facebook text-2xl cursor-pointer"></i></a>
+                        <a href="https://x.com/KumaillKhan"><i
+                                class="fa-brands fa-twitter text-2xl cursor-pointer"></i></a>
+                    </div>
+                </div>
+                <!-- intro-right end   -->
+            </div>
+            <!-- hero-intro end -->
+        </div>
+        <!-- hero-section end -->
+
+
+        <div class="about-section justify-center flex ">
+            <div class="about ">
+                <h1 class="text-4xl font-semibold">About Me</h1>
+                <span></span>
+                <div class="cards flex justify-center items-center mt-28 gap-20">
+                    <div class="experience-card border-2 border-black p-8 rounded-3xl flex flex-col items-center w-72">
+                        <span><i class="fa-solid fa-medal text-xl"></i></span>
+                        <h1 class="text-xl font-semibold pt-3">Experience</h1>
+                        <p class="pt-2 text-gray-600">Fresher</p>
+                        <p class="pt-2 text-gray-600">Frontend Web Developer</p>
+                    </div>
+                    <div class="education-card border-2 border-black p-8 rounded-3xl flex flex-col items-center w-72">
+                        <span><i class="fa-solid fa-graduation-cap text-xl"></i></span>
+                        <h1 class="text-xl font-semibold pt-3">Education</h1>
+                        <p class="pt-2 text-gray-600">Intermidiate done</p>
+                        <p class="pt-2 text-gray-600"> Bachelors ongoing</p>
+                    </div>
+                </div>
+                <!-- cards end -->
+                <p class="mt-20 text-xl">
+                    Hello! I’m Muhammad Kumail Khan, a proficient Frontend-web-developer from Pakistan with a knack for
+                    building websites ranging from small businesses to complex interactive web applications. Currently,
+                    I am looking for an internship to improve my skills and work in real life projects with
+                    professionals.
+                </p>
+                <p class="mt-3 text-xl">
+                    As a dedicated web designer and developer, I strive to make a positive impact on clients,
+                    colleagues, and the online world.
+                </p>
+                <p class="mt-3 text-xl">
+                    I’m always looking for opportunities to enhance my skills and progress in my career. My potential in
+                    web development, paired with my inventive abilities, can contribute value to both my personal growth
+                    and the company I work for.
+                </p>
+                <p class="mt-3 text-xl">
+                    Highly motivated and ready for new challenges, I am confident that my skills and experience make me
+                    a valuable asset to any team. I look forward to further growth and learning in my career.
+                </p>
+            </div>
+            <!-- about end  -->
+        </div>
+        <!-- about-section end -->
+
+
+        <div class="projects-section justify-center flex pt-52">
+            <div class="projects ">
+                <h1 class="text-4xl font-semibold">Projects</h1>
+                <span></span>
+                <div class="project-cards flex flex-wrap justify-center gap-6 pt-28">
+                    <div class="card-parent">
+                        <div class="card bg-slate-300 hover:bg-slate-400 ease-in-out duration-200" id="project-cards">
+                            <img src="images/new-pict.jpg">
+                            <h1>Project 1</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et sed explicabo nihil,
+                                odio
+                                ipsa quasi.</p>
+                            <div class="buttons">
+                                <button>Github</button>
+                                <button>Live Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  card  end -->
+                    <div class="card-parent">
+                        <div class="card  bg-slate-300 hover:bg-slate-400 ease-in-out duration-200" id="project-cards">
+                            <img src="images/new-pict.jpg">
+                            <h1>Project 2</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et sed explicabo nihil,
+                                odio
+                                ipsa quasi.</p>
+                            <div class="buttons">
+                                <button>Github</button>
+                                <button>Live Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  card  end -->
+                    <div class="card-parent">
+                        <div class="card  bg-slate-300 hover:bg-slate-400 ease-in-out duration-200" id="project-cards">
+                            <img src="images/new-pict.jpg">
+                            <h1>Project 3</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et sed explicabo nihil,
+                                odio
+                                ipsa quasi.</p>
+                            <div class="buttons">
+                                <button>Github</button>
+                                <button>Live Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  card  end -->
+                    <div class="card-parent">
+                        <div class="card  bg-slate-300 hover:bg-slate-400 ease-in-out duration-200" id="project-cards">
+                            <img src="images/new-pict.jpg">
+                            <h1>Project 4</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et sed explicabo nihil,
+                                odio
+                                ipsa quasi.</p>
+                            <div class="buttons">
+                                <button>Github</button>
+                                <button>Live Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  card  end -->
+                    <div class="card-parent ">
+                        <div class="card  bg-slate-300 hover:bg-slate-400 ease-in-out duration-200" id="project-cards">
+                            <img src="images/new-pict.jpg">
+                            <h1>Project 5</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et sed explicabo nihil,
+                                odio
+                                ipsa quasi.</p>
+                            <div class="buttons">
+                                <button>Github</button>
+                                <button>Live Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  card  end -->
+                    <div class="card-parent">
+                        <div class="card  bg-slate-300 hover:bg-slate-400 ease-in-out duration-200" id="project-cards">
+                            <img src="images/new-pict.jpg">
+                            <h1>Project 6</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et sed explicabo nihil,
+                                odio
+                                ipsa quasi.</p>
+                            <div class="buttons">
+                                <button>Github</button>
+                                <button>Live Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  card  end -->
+
+                    <button id="load-more"
+                        class="w-36 h-12 flex items-center justify-center border border-black rounded-xl mt-4 text-xl font-semibold hover:bg-black hover:text-white ease-in-out duration-200">
+                        Show More</button>
+                </div>
+                <!-- project-cards end -->
+            </div>
+            <!-- projects end -->
+        </div>
+        <!-- projects-section end -->
+
+
+        <div class="skills-section flex justify-center pt-56">
+            <div class="skills ">
+                <h1 class="text-4xl font-semibold">Skills</h1>
+                <span></span>
+                <div class="cards flex justify-center items-center mt-28 gap-20">
+                    <div
+                        class="experience-card border-2 border-black p-8 rounded-3xl flex flex-col items-center w-5/12 h-96">
+                        <h1 class="text-2xl font-semibold pt-3">Frontened Development</h1>
+                        <div class="total-num-skill flex justify-between gap-36 pt-11  flex-wrap">
+                            <div class="part-one flex flex-col gap-16">
+                                <div class="html flex items-center gap-2 ">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <h1>HTML</h1>
+                                </div>
+                                <div class="css flex items-center gap-2 ">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <h1>CSS</h1>
+                                </div>
+                                <div class="javascript flex items-center gap-2 ">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <h1>Vanila JS</h1>
+                                </div>
+                            </div>
+                            <!-- part-one end -->
+                            <div class="part-two flex flex-col gap-16">
+                                <div class="scss flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <h1>SCSS</h1>
+                                </div>
+                                <div class="tailwind flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <h1>Tailwind CSS</h1>
+                                </div>
+                                <div class="figma flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <h1>Figma</h1>
+                                </div>
+                            </div>
+                            <!-- part-two end -->
+                        </div>
+                        <!-- total-num-skill end -->
+                    </div>
+                    <div
+                        class="education-card border-2 border-black p-8 rounded-3xl flex flex-col items-center w-5/12 h-96">
+                        <h1 class="text-2xl font-semibold pt-3">Backend Development</h1>
+                        <p class="pt-24 text-gray-600 text-4xl">Coming Soon...</p>
+
+                    </div>
+                </div>
+                <!-- cards end -->
+            </div>
+            <!-- skills  end -->
+        </div>
+        <!-- skills-section end -->
+
+
+        <div class="contact-section flex justify-center pt-56">
+            <div class="contact">
+                <h1 class="text-4xl font-semibold">Contact me</h1>
+                <span></span>
+                <div class="contact-platforms flex flex-col items-center justify-center pt-24">
+                    <h1 class="text-2xl font-medium">Find me on the following platforms!</h1>
+                    <div class="platforms flex flex-col pt-11 ">
+                        <a href="mailto:liamukkhan@gmail.com">
+                            <div
+                                class="gmail flex justify-center items-center gap-6 h-20 border border-black cursor-pointer hover:bg-slate-600 hover:text-white ease-in-out duration-200">
+                                <i class="fa-solid fa-envelope text-3xl"></i>
+                                <h1 class="text-xl font-medium">liamukkhan@gmail.com</h1>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kumail-khan-806b59242/">
+                            <div
+                                class="linkedin flex justify-center items-center gap-6 h-20 border border-black cursor-pointer hover:bg-slate-600 hover:text-white ease-in-out duration-200">
+                                <i class="fa-brands fa-linkedin text-3xl"></i>
+                                <h1 class="text-xl font-medium">linke@linkedin</h1>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/kumail_khan_01/">
+                            <div
+                                class="instagram flex justify-center items-center gap-6 h-20 border border-black cursor-pointer hover:bg-slate-600 hover:text-white ease-in-out duration-200">
+                                <i class="fa-brands fa-instagram text-3xl"></i>
+                                <h1 class="text-xl font-medium">insta@instagram</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- contact-platforms end -->
+            </div>
+            <!-- contact end -->
+        </div>
+        <!-- contact-section end -->
+
+        <div class="footer-section flex justify-center mt-56 h-60  bg-black">
+            <footer class="flex flex-col items-center pt-8">
+                <div class="footer-navbar text-white flex items-center justify-between w-3/4 text-xl">
+                    <p class="cursor-pointer hover:text-gray-200">Home</p>
+                    <p class="cursor-pointer hover:text-gray-200">About</p>
+                    <p class="cursor-pointer hover:text-gray-200">Projects</p>
+                    <p class="cursor-pointer hover:text-gray-200">Skills</p>
+                    <p class="cursor-pointer hover:text-gray-200">Contact</p>
+                </div>
+                <!-- footer-navbar end -->
+                <div class="links mt-12 flex gap-10 text-white ">
+                    <a href=" https://github.com/Kumail-Khan"><i
+                            class="fa-brands fa-github text-2xl cursor-pointer hover:text-gray-200"></i></a>
+                    <a href="https://www.linkedin.com/in/kumail-khan-806b59242/"><i
+                            class="fa-brands fa-linkedin text-2xl cursor-pointer hover:text-gray-200"></i></a>
+                    <a href="https://www.instagram.com/kumail_khan_01/"><i
+                            class="fa-brands fa-instagram text-2xl cursor-pointer hover:text-gray-200"></i></a>
+                    <a href=" https://web.facebook.com/profile.php?id=100013381187178"><i
+                            class="fa-brands fa-facebook text-2xl cursor-pointer hover:text-gray-200"></i></a>
+                    <a href="https://x.com/KumaillKhan">
+                        <i class="fa-brands fa-twitter text-2xl cursor-pointer hover:text-gray-200"></i></a>
+                </div>
+                <!-- links end -->
+                <div class="copyright text-white mt-10 flex gap-7">
+                    <h1>copyright--2024</h1>
+                    <h1>@ M.Kumail khan</h1>
+                </div>
+            </footer>
+            <!-- footer end -->
+        </div>
+        <!-- footer-section end -->
+
+    </div>
+    <!-- site-wrapper end -->
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/9fa5e4001d.js" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffaff;
+    font-family: "Inter", sans-serif;
+
+}
+
+.navbar-parent .navbar,
+.hero-intro,
+.about,
+.projects,
+.skills,
+.contact,
+footer {
+    width: 1200px;
+}
+
+.about,
+.projects,
+.skills,
+.contact {
+    position: relative;
+}
+
+.about span,
+.projects span,
+.skills span,
+.contact span {
+    width: 600px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 29px;
+    left: 165px;
+}
+
+.projects span {
+    left: 140px;
+}
+
+.skills span {
+    left: 90px;
+}
+
+.contact span {
+    left: 195px;
+}
+
+.education-card,
+.experience-card {
+    position: relative;
+}
+
+.education-card span,
+.experience-card span {
+    position: absolute;
+    top: -25px;
+    left: 120px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #fffaff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-cards .card {
+    width: 380px;
+    padding: 20px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-parent {
+    display: none;
+}
+
+.project-cards .card-parent:nth-child(1),
+.project-cards .card-parent:nth-child(2),
+.project-cards .card-parent:nth-child(3) {
+    display: inline-block;
+}
+
+.project-cards .card img {
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.project-cards .card h1 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.project-cards .card p {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.project-cards .card .buttons {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.project-cards .card .buttons button {
+    width: 150px;
+    padding: 8px 20px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    transition: 0.3s all ease-in-out;
+    font-weight: 600;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+.platforms a .gmail,
+.platforms a .linkedin,
+.platforms a .instagram {
+    width: 700px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
