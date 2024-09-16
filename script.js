@@ -11,3 +11,11 @@ loadMoreBtn.onclick = () => {
         loadMoreBtn.style.display = "none"
     }
 }
+
+
+const hambuger = document.querySelector(".menu-btn")
+const dropdownmwnu = document.querySelector(".navbar-right-mobile-version")
+
+hambuger.addEventListener("click", () => {
+    dropdownmwnu.classList.toggle("open")
+})

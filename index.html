@@ -10,6 +10,7 @@
     <title>M.Kumail Khan</title>
     <link rel="stylesheet" href="src/output.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-quires.css">
 </head>
 
 <body>
@@ -21,19 +22,55 @@
                 </div>
                 <!-- navbar-left end -->
                 <div class="navbar-right text-white flex justify-between w-1/2 text-xl">
-                    <p class="cursor-pointer hover:text-gray-200">Home</p>
-                    <p class="cursor-pointer hover:text-gray-200">About</p>
-                    <p class="cursor-pointer hover:text-gray-200">Projects</p>
-                    <p class="cursor-pointer hover:text-gray-200">Skills</p>
-                    <p class="cursor-pointer hover:text-gray-200">Contact</p>
+                    <a href="#Home">
+                        <p class="cursor-pointer hover:text-gray-200">Home</p>
+                    </a>
+                    <a href="#About">
+                        <p class="cursor-pointer hover:text-gray-200">About</p>
+                    </a>
+                    <a href="#Projects">
+                        <p class="cursor-pointer hover:text-gray-200">Projects</p>
+                    </a>
+                    <a href="#Skills">
+                        <p class="cursor-pointer hover:text-gray-200">Skills</p>
+                    </a>
+                    <a href="#Contact">
+                        <p class="cursor-pointer hover:text-gray-200">Contact</p>
+                    </a>
                 </div>
                 <!-- navbar-right end -->
+                <div class="navbar-right-mobile-version ">
+                    <div class="nav-parent">
+                        <a href="#Home" class="nav-1">
+                            <p class="cursor-pointer hover:text-gray-200">Home</p>
+                        </a>
+                        <a href="#About" class="nav-2">
+                            <p class="cursor-pointer hover:text-gray-200">About</p>
+                        </a>
+                        <a href="#Projects" class="nav-3">
+                            <p class="cursor-pointer hover:text-gray-200">Projects</p>
+                        </a>
+                        <a href="#Skills" class="nav-4">
+                            <p class="cursor-pointer hover:text-gray-200">Skills</p>
+                        </a>
+                        <a href="#Contact" class="nav-5">
+                            <p class="cursor-pointer hover:text-gray-200">Contact</p>
+                        </a>
+                    </div>
+                    <!-- nav-parent end -->
+                </div>
+                <!-- navbar-right-mobile-version end -->
+                <div class="menu-btn text-white">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
             </div>
             <!--  navbar end -->
         </div>
         <!--  navbar parent end -->
 
-        <div class="hero-section justify-center flex h-screen items-center">
+        <div id="Home" class="hero-section justify-center flex h-screen items-center">
             <div class="hero-intro w-9/12 flex justify-between items-center">
                 <div class="intro-left flex flex-col items-center w-2/4">
                     <img src="images/profile-image.jpg" class="w-96  rounded-full border-2 border-black">
@@ -71,8 +108,8 @@
         <!-- hero-section end -->
 
 
-        <div class="about-section justify-center flex ">
-            <div class="about ">
+        <div id="About" class="about-section justify-center flex ">
+            <div class="about mt-28 mb-44">
                 <h1 class="text-4xl font-semibold">About Me</h1>
                 <span></span>
                 <div class="cards flex justify-center items-center mt-28 gap-20">
@@ -115,7 +152,7 @@
         <!-- about-section end -->
 
 
-        <div class="projects-section justify-center flex pt-52">
+        <div id="Projects" class="projects-section justify-center flex pt-28 pb-32">
             <div class="projects ">
                 <h1 class="text-4xl font-semibold">Projects</h1>
                 <span></span>
@@ -205,24 +242,28 @@
                     </div>
                     <!--  card  end -->
 
+
+                </div>
+                <!-- project-cards end -->
+                <div class="project-expand-button flex justify-center items-center mt-10">
                     <button id="load-more"
                         class="w-36 h-12 flex items-center justify-center border border-black rounded-xl mt-4 text-xl font-semibold hover:bg-black hover:text-white ease-in-out duration-200">
                         Show More</button>
                 </div>
-                <!-- project-cards end -->
+                <!-- project-expand-button end -->
             </div>
             <!-- projects end -->
         </div>
         <!-- projects-section end -->
 
 
-        <div class="skills-section flex justify-center pt-56">
+        <div id="Skills" class="skills-section flex justify-center pt-28 pb-52">
             <div class="skills ">
                 <h1 class="text-4xl font-semibold">Skills</h1>
                 <span></span>
                 <div class="cards flex justify-center items-center mt-28 gap-20">
                     <div
-                        class="experience-card border-2 border-black p-8 rounded-3xl flex flex-col items-center w-5/12 h-96">
+                        class="frontend-card border-2 border-black p-8 rounded-3xl flex flex-col items-center w-5/12 h-96">
                         <h1 class="text-2xl font-semibold pt-3">Frontened Development</h1>
                         <div class="total-num-skill flex justify-between gap-36 pt-11  flex-wrap">
                             <div class="part-one flex flex-col gap-16">
@@ -258,12 +299,14 @@
                         </div>
                         <!-- total-num-skill end -->
                     </div>
+                    <!-- experience-card end -->
                     <div
-                        class="education-card border-2 border-black p-8 rounded-3xl flex flex-col items-center w-5/12 h-96">
+                        class="backend-card border-2 border-black p-8 rounded-3xl flex flex-col items-center w-5/12 h-96">
                         <h1 class="text-2xl font-semibold pt-3">Backend Development</h1>
                         <p class="pt-24 text-gray-600 text-4xl">Coming Soon...</p>
 
                     </div>
+                    <!-- education-card end -->
                 </div>
                 <!-- cards end -->
             </div>
@@ -272,7 +315,7 @@
         <!-- skills-section end -->
 
 
-        <div class="contact-section flex justify-center pt-56">
+        <div id="Contact" class="contact-section flex justify-center pt-28">
             <div class="contact">
                 <h1 class="text-4xl font-semibold">Contact me</h1>
                 <span></span>
@@ -301,6 +344,25 @@
                             </div>
                         </a>
                     </div>
+
+
+
+                    <!-- <div class="email-section flex flex-col justify-center items-center mt-24 text-2xl font-medium">
+                        <h1 class="">Direct Email</h1>
+                        <form action="https://formspree.io/f/xblrekwe" method="POST"
+                            class="flex flex-col justify-center items-center">
+                            <input type="text" name="name" placeholder="Enter your fullname" required
+                                class="bg-slate-600">
+                            <input type="text" name="email" placeholder="Enter your email address" required
+                                class="bg-slate-600">
+                            <textarea name="message" placeholder="Message" required class="bg-slate-600"></textarea>
+                            <button
+                                class="w-36 h-11 rounded-lg bg-slate-700 hover:bg-slate-900 text-white mt-10 text-xl ">Submit</button>
+                        </form>
+                    </div> -->
+                    <!-- email-section end -->
+
+
                 </div>
                 <!-- contact-platforms end -->
             </div>
@@ -311,11 +373,21 @@
         <div class="footer-section flex justify-center mt-56 h-60  bg-black">
             <footer class="flex flex-col items-center pt-8">
                 <div class="footer-navbar text-white flex items-center justify-between w-3/4 text-xl">
-                    <p class="cursor-pointer hover:text-gray-200">Home</p>
-                    <p class="cursor-pointer hover:text-gray-200">About</p>
-                    <p class="cursor-pointer hover:text-gray-200">Projects</p>
-                    <p class="cursor-pointer hover:text-gray-200">Skills</p>
-                    <p class="cursor-pointer hover:text-gray-200">Contact</p>
+                    <a href="#Home">
+                        <p class="cursor-pointer hover:text-gray-200">Home</p>
+                    </a>
+                    <a href="#About">
+                        <p class="cursor-pointer hover:text-gray-200">About</p>
+                    </a>
+                    <a href="#Projects">
+                        <p class="cursor-pointer hover:text-gray-200">Projects</p>
+                    </a>
+                    <a href="#Skills">
+                        <p class="cursor-pointer hover:text-gray-200">Skills</p>
+                    </a>
+                    <a href="#Contact">
+                        <p class="cursor-pointer hover:text-gray-200">Contact</p>
+                    </a>
                 </div>
                 <!-- footer-navbar end -->
                 <div class="links mt-12 flex gap-10 text-white ">
