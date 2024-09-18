@@ -657,7 +657,7 @@
                 margin-bottom: 50px;
 
                 img {
-                    width: 300px;
+                    width: 230px;
                 }
             }
 
@@ -820,6 +820,14 @@
 
     }
 
+    .contact-section {
+        .contact {
+            span {
+                width: 150px;
+            }
+        }
+    }
+
     .education-card span,
     .experience-card span {
         position: absolute;
@@ -869,6 +877,59 @@
             }
         }
     }
+
+
+    .contact-section {
+        .contact {
+            span {
+                width: 110px;
+            }
+
+            .contact-platforms {
+                width: auto;
+
+                h1 {
+                    width: auto;
+                    font-size: 18px;
+                    font-weight: 600
+                }
+
+                .platforms a .gmail,
+                .platforms a .linkedin,
+                .platforms a .instagram {
+                    width: 330px;
+                    height: 45px;
+                    gap: 10px;
+
+                    i {
+                        font-size: 17px;
+                    }
+
+                    h1 {
+                        font-size: 15px;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+    .footer-section {
+        footer {
+            .footer-navbar {
+                gap: 10px;
+                justify-content: center;
+
+                a {
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 /* max-width:570px end */
@@ -894,9 +955,39 @@
 
     }
 
-    .contact span {
-        width: 50px;
+    .contact-section {
+        .contact {
+            span {
+                width: 110px;
+            }
 
+            .contact-platforms {
+                width: auto;
+
+                h1 {
+                    width: auto;
+                    font-size: 16px;
+                    font-weight: 600
+                }
+
+                .platforms a .gmail,
+                .platforms a .linkedin,
+                .platforms a .instagram {
+                    width: 280px;
+                    height: 40px;
+                    gap: 10px;
+
+                    i {
+                        font-size: 16px;
+                    }
+
+                    h1 {
+                        font-size: 14px;
+                    }
+                }
+
+            }
+        }
     }
 
     .education-card span,
@@ -910,6 +1001,10 @@
             font-size: 16px;
         }
     }
+
+
+
+
 
     .navbar-right-mobile-version.open {
         clip-path: circle(100px at 90% -20%);
@@ -948,6 +1043,27 @@
             }
         }
     }
+
+
+    .footer-section {
+        footer {
+            .footer-navbar {
+                gap: 10px;
+                justify-content: center;
+
+                a {
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
 }
 
 /* max-width:450px end */
