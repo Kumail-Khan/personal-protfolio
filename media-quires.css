@@ -174,7 +174,7 @@
         z-index: -1;
         clip-path: circle(100px at 90% -20%);
         -webkit-clip-path: circle(10px at 90% 4%);
-        transition: all 1s ease-out;
+        transition: all 0.4s ease-out;
 
         .nav-parent {
             position: relative;
