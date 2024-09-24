@@ -115,6 +115,7 @@ footer {
 .project-cards .card img {
     border-radius: 20px;
     object-fit: cover;
+    height: 200px;
 }
 
 .project-cards .card h1 {
